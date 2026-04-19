@@ -13,10 +13,10 @@ Tweak to bring IOS26 time extend feature to old versions
 
 ---
 
-##  Preview
-
-> Add screenshots or GIFs here to show the tweak in action  
-> (Lock Screen before / after stretching effect)
+##  Preview without [liquidass tweak](https://github.com/winaviation-tweaks/liquidass)
+![1](previews/1preview.png)
+![2](previews/2preview.png)
+![3](previews/3preview.png)
 
 ---
 
