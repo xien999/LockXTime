@@ -1,3 +1,5 @@
+# <code style="color : name_color">Note : beta version , use it on your risk</code>
+
 - Note : beta version , use it on your risk
 
 $$\color{red}{Note \space : \space beta \space version \space , \space use \space it \space at \space your \space risk}$$
