@@ -1,3 +1,5 @@
+<code style="color : red">text</code>
+
 # <code style="color : red">Note : beta version , use it on your risk</code>
 
 - Note : beta version , use it on your risk
