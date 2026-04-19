@@ -36,6 +36,12 @@ This tweak hooks into the Lock Screen UI elements and modifies their transform v
 
 ---
 
+## Known bugs ❗️
+- (Apply&Respring) button don't work but It will crash you Settings app
+- Tweak settings crashes randomly
+
+---
+
 ## 🙏 AI's I had used to slove bugs
 
 Special thanks to the AI tools that helped solve various problems:
