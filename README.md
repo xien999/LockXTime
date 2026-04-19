@@ -1,51 +1,69 @@
-# $$\color{red}{Note \space : \space beta \space version \space , \space use \space it \space at \space your \space own \space risk}$$
+# LockXTime [Experimental]
 
-### LockXTime [Experimental]
-Tweak to bring IOS26 time extend feature to old versions 
+&gt; ⚠️ **Beta Version** — Use at your own risk. May contain bugs or unexpected issues.
 
----------------
-
-####  Features
-
--  X / Y axis stretching for Lock Screen clock
--  Real-time customization through preferences
--  Smooth UI transformation without lag
--  Instant apply without respring
--  Compatible with liquidAss tweak :
+A tweak to bring the iOS 26 Time Extend feature to older versions.
 
 ---
 
-####  Preview 
-![1](previews/1preview.png)
-![2](previews/2preview.png)
-![3](previews/3preview.png)
+## ✨ Features
+
+- X / Y axis stretching for Lock Screen clock
+- Real-time customization through preferences
+- Smooth UI transformation without lag
+- Instant apply without respring
+- Compatible with [LiquidAss](https://github.com/winaviation-tweaks/liquidass) tweak
 
 ---
 
-####  Preview with [liquidass tweak](https://github.com/winaviation-tweaks/liquidass)
-![1](previews/1previewliquidass.png)
-![2](previews/2previewliquidass.png)
-![3](previews/3previewliquidass.png)
-![4](previews/4previewliquidass.png)
----
+## 🖼️ Previews
 
-#### ⚙️ How It Works
+### Default Mode
+| | | |
+|:---:|:---:|:---:|
+| ![Preview 1](previews/1preview.png) | ![Preview 2](previews/2preview.png) | ![Preview 3](previews/3preview.png) |
 
-This tweak hooks into the Lock Screen UI elements and modifies their transform values using UIKit/CALayer transformations, allowing controlled stretching on X and Y axes without breaking layout rendering.
-
----
-
-#### AI's I had used to solve some problems
-- Cluade [Best one at this time]
-- Manus AI [Good at sloving bugs, but not at first prompet]
-- ChatGPT [Good at debug the code and give a good solutions, bad asf at programming]
-- Gemini [Saved me to solve alot of problems at Github]
+### With LiquidAss Tweak
+| | | | |
+|:---:|:---:|:---:|:---:|
+| ![Preview 1](previews/1previewliquidass.png) | ![Preview 2](previews/2previewliquidass.png) | ![Preview 3](previews/3previewliquidass.png) | ![Preview 4](previews/4previewliquidass.png) |
 
 ---
 
-#### 📦 Installation
-download the deb from [Releases page](https://github.com/xien999/LockXTime/releases) and Install it via sileo
+## ⚙️ How It Works
 
-#### Requirements
+This tweak hooks into the Lock Screen UI elements and modifies their transform values using UIKit/CALayer transformations, allowing controlled stretching on the X and Y axes without breaking layout rendering.
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to the AI tools that helped solve various problems:
+
+| AI Tool | Best Use Case |
+|---------|--------------|
+| **Claude** | Best overall performance |
+| **Manus AI** | Good at bug fixing, but requires multiple prompts |
+| **ChatGPT** | Excellent at debugging and suggesting solutions, weak at programming |
+| **Gemini** | Helped a lot with GitHub-related issues |
+
+---
+
+## 📦 Installation
+
+1. Download the `.deb` file from the [Releases page](https://github.com/xien999/LockXTime/releases)
+2. Install it via **Sileo**
+
+### Requirements
 - Jailbroken iOS device
-- Compatible iOS version 14.0-17.0
+- Compatible iOS versions: **14.0 – 17.0**
+
+---
+
+## 📝 License
+
+[Add your license here, e.g., MIT, GPL-3.0]
+
+---
+
+&gt; **Note:** This is an experimental project. If you encounter any issues, please open a new [Issue](https://github.com/xien999/LockXTime/issues).
