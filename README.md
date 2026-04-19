@@ -1,4 +1,4 @@
-# $$\color{red}{Note \space : \space beta \space version \space , \space use \space it \space at \space your \space risk}$$
+# $$\color{red}{Note \space : \space beta \space version \space , \space use \space it \space at \space your \space own \space risk}$$
 
 ### LockXTime [Experimental]
 Tweak to bring IOS26 time extend feature to old versions 
