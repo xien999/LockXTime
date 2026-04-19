@@ -1,6 +1,6 @@
-< Note : beta version , use it on your risk
+\ Note : beta version , use it on your risk
 
-# LockXTime[Experimental]
+# LockXTime [Experimental]
 Tweak to bring IOS26 time extend feature to old versions 
 
 ---------------
