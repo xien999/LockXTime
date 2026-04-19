@@ -1,3 +1,5 @@
+$$\color{red}{This \space is \space red \space text}$$
+
 # Note : beta version , use it on your risk
 
 ### LockXTime [Experimental]
