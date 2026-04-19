@@ -26,7 +26,8 @@ A tweak to bring the iOS 26 Time Extend feature to older versions.
 ### With LiquidAss Tweak
 | | | | |
 |:---:|:---:|:---:|:---:|
-| ![Preview 1](previews/1previewliquidass.png) | ![Preview 2](previews/2previewliquidass.png) | ![Preview 3](previews/3previewliquidass.png) | ![Preview 4](previews/4previewliquidass.png) |
+| ![Preview 1](previews/1previewliquidass.png) | ![Preview 2](previews/2previewliquidass.png) | 
+![Preview 3](previews/3previewliquidass.png) | ![Preview 4](previews/4previewliquidass.png) |
 
 ---
 
@@ -36,7 +37,7 @@ This tweak hooks into the Lock Screen UI elements and modifies their transform v
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 AI's I had used to slove bugs
 
 Special thanks to the AI tools that helped solve various problems:
 
@@ -57,12 +58,6 @@ Special thanks to the AI tools that helped solve various problems:
 ### Requirements
 - Jailbroken iOS device
 - Compatible iOS versions: **14.0 – 17.0**
-
----
-
-## 📝 License
-
-[Add your license here, e.g., MIT, GPL-3.0]
 
 ---
 
