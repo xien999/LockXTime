@@ -1,4 +1,4 @@
-# <code style="color : name_color">Note : beta version , use it on your risk</code>
+# <code style="color : red">Note : beta version , use it on your risk</code>
 
 - Note : beta version , use it on your risk
 
