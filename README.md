@@ -1,4 +1,4 @@
-$$\color{red}{This \space is \space red \space text}$$
+$$\color{red}{Note \space : \space beta \space version \space , \space use \space it \space at \space your \space risk}$$
 
 # Note : beta version , use it on your risk
 
