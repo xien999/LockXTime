@@ -11,8 +11,6 @@
 }
 
 - (void)respring {
-    // Settings only posts a Darwin notification.
-    // The tweak inside SpringBoard receives it and performs the actual respring.
     notify_post("com.xien999.lockxtime/doRespring");
 }
 

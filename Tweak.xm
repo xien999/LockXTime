@@ -4,11 +4,8 @@
 #import <dlfcn.h>
 #import <objc/runtime.h>
 
-// Private headers — provided by your SDK
 #import <FrontBoardServices/FBSSystemService.h>
 #import <SpringBoardServices/SBSRelaunchAction.h>
-
-// ─────────────────────────────────────────────────────────────────────────────
 
 static NSString *const kPrefsDomain              = @"com.xien999.lockxtime";
 static NSString *const kPrefsChangedNotification = @"com.xien999.lockxtime/prefsChanged";
@@ -18,8 +15,6 @@ static BOOL    enabled           = YES;
 static CGFloat stretchXVal       = 1.0;
 static CGFloat stretchYVal       = 1.0;
 static BOOL    isApplyingStretch = NO;
-
-// ─── Preferences ─────────────────────────────────────────────────────────────
 
 static void loadPrefs() {
     CFArrayRef keyList = CFPreferencesCopyKeyList(
@@ -48,23 +43,6 @@ static void loadPrefs() {
     if (stretchYVal <= 0) stretchYVal = 1.0;
 }
 
-// ─── Transform — stretches downward from top edge, no position shift ──────────
-//
-// CGAffineTransformMakeScale(sx, sy) scales from the CENTER of the view.
-// This causes the top edge to move UP by (height * (sy-1) / 2) and the
-// bottom edge to move DOWN by the same amount — not what we want.
-//
-// To pin the top edge and stretch only downward, we counter the upward
-// shift with a downward translation added to the scale transform:
-//
-//   translateY = height * (sy - 1) / 2
-//
-// Combined into one transform:
-//   T = Scale(sx, sy) · Translate(0, +translateY)
-//
-// This keeps the top edge exactly where it was and pushes only the bottom down.
-// No anchorPoint or layer.position changes needed — pure CGAffineTransform.
-
 static void ApplyStretchToView(UIView *view) {
     if (!view) return;
     if (isApplyingStretch) return;
@@ -74,9 +52,7 @@ static void ApplyStretchToView(UIView *view) {
         view.transform = CGAffineTransformIdentity;
     } else {
         CGFloat h = view.bounds.size.height;
-        // How much center-scale would shift the top edge upward
         CGFloat translateY = h * (stretchYVal - 1.0) / 2.0;
-        // Scale first, then push down to pin the top
         CGAffineTransform scale     = CGAffineTransformMakeScale(stretchXVal, stretchYVal);
         CGAffineTransform translate = CGAffineTransformMakeTranslation(0, translateY);
         view.transform = CGAffineTransformConcat(scale, translate);
@@ -85,17 +61,12 @@ static void ApplyStretchToView(UIView *view) {
     isApplyingStretch = NO;
 }
 
-// ─── Hooks ───────────────────────────────────────────────────────────────────
-// Only hook the TIME view — NOT SBFLockScreenDateView (the date label)
-
 %hook CSProminentTimeView
 - (void)layoutSubviews {
     %orig;
     ApplyStretchToView((UIView *)self);
 }
 %end
-
-// ─── Respring — exact LiquidAss pattern ──────────────────────────────────────
 
 static void performRespring(void) {
     dlopen("/System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices", RTLD_NOW);
@@ -133,8 +104,6 @@ static void prefsChangedCallback(CFNotificationCenterRef center,
                                  CFDictionaryRef userInfo) {
     loadPrefs();
 }
-
-// ─── Constructor ─────────────────────────────────────────────────────────────
 
 %ctor {
     loadPrefs();
