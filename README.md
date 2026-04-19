@@ -1,13 +1,7 @@
 # LockXTime
 Tweak to bring IOS26 time extend feature to old versions 
 
------------
-
-# LockXTime
-
-A lightweight iOS jailbreak tweak that allows dynamic stretching and customization of the Lock Screen clock/date layout. [same as IOS26]
-
----
+---------------
 
 ##  Features
 
@@ -33,7 +27,7 @@ This tweak hooks into the Lock Screen UI elements and modifies their transform v
 ---
 
 ## 📦 Installation
-download the deb from Releases page and Install it via sileo
+download the deb from [Releases page](https://github.com/xien999/LockXTime/releases) and Install it via sileo
 
 ### Requirements
 - Jailbroken iOS device
