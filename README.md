@@ -13,11 +13,18 @@ Tweak to bring IOS26 time extend feature to old versions
 
 ---
 
-##  Preview without [liquidass tweak](https://github.com/winaviation-tweaks/liquidass)
+##  Preview 
 ![1](previews/1preview.png)
 ![2](previews/2preview.png)
 ![3](previews/3preview.png)
 
+---
+
+##  Preview with [liquidass tweak](https://github.com/winaviation-tweaks/liquidass)
+![1](previews/1previewliquidass.png)
+![2](previews/2previewliquidass.png)
+![3](previews/3previewliquidass.png)
+![4](previews/4previewliquidass.png)
 ---
 
 ## ⚙️ How It Works
