@@ -1,0 +1,9 @@
+Package: com.xien999.lockxtime
+Name: LockXTime
+Version: 0.1-beta
+Architecture: iphoneos-arm
+Description: An fucking awesome MobileSubstrate IOS 26 time date fucking cake tweak
+Maintainer: xien999
+Author: xien999
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

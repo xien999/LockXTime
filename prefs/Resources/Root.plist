@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>LockXTime Settings</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.xien999.lockxtime/prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.xien999.lockxtime</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Stretch X (Width)</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.xien999.lockxtime/prefsChanged</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>com.xien999.lockxtime</string>
+			<key>key</key>
+			<string>StretchX</string>
+			<key>max</key>
+			<real>3</real>
+			<key>min</key>
+			<real>0.5</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Stretch Y (Height)</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.xien999.lockxtime/prefsChanged</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>com.xien999.lockxtime</string>
+			<key>key</key>
+			<string>StretchY</string>
+			<key>max</key>
+			<real>3</real>
+			<key>min</key>
+			<real>0.5</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Applying changes "do not" requires a Respring.
+
+Made by xien999 :)</string>
+			<key>label</key>
+			<string>Actions</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Apply &amp; Respring</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LockXTime</string>
+</dict>
+</plist>

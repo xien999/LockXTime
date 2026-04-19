@@ -1,0 +1,10 @@
+{
+    entry = {
+        bundle = LockXTimePrefs;
+        cell = PSLinkCell;
+        detail = LXTRootListController;
+        icon = "Icon.png";
+        isController = 1;
+        label = "LockXTime";
+    };
+}
