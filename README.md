@@ -35,6 +35,14 @@ This tweak hooks into the Lock Screen UI elements and modifies their transform v
 
 ---
 
+#### AI's I had used to solve some problems
+- Cluade [Best one at this time]
+- Manus AI [Good at sloving bugs, but not at first prompet]
+- ChatGPT [Good at debug the code and give a good solutions, bad asf at programming]
+- Gemini [Saved me to solve alot of problems at Github]
+
+---
+
 #### 📦 Installation
 download the deb from [Releases page](https://github.com/xien999/LockXTime/releases) and Install it via sileo
 
